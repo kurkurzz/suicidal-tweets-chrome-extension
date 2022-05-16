@@ -1,5 +1,5 @@
 console.log("News credibility extension started !!");
-backend_url = "http://127.0.0.1:8000/classify?text="
+backend_url = "http://suicide-classification.byhafiz.com//classify?text="
 
 function checkTweets() {
 	let tweets = document.querySelectorAll("article");
