@@ -1,5 +1,9 @@
-console.log("News credibility extension started !!");
-backend_url = "http://suicide-classification.byhafiz.com//classify?text="
+console.log("Initializing suicidal tweets detector!");
+
+// problem with http, need to use https
+// backend_url = "http://suicide-classification.byhafiz.com/classify?text="
+
+backend_url = "https://suicidal-chrome-extension.herokuapp.com/classify?text="
 
 function checkTweets() {
 	let tweets = document.querySelectorAll("article");
