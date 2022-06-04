@@ -1,0 +1,14 @@
+.depressionLabel {
+	font-family: "Verdana"; 
+	color: white;
+	background-color: rgb(232, 57, 44);
+	position: absolute; 
+	top:10px; 
+	right: 40px;
+	padding: 2px 5px; 
+	border-radius: 3px;
+}
+
+.depressionLabel:hover {
+	background-color: rgb(242, 87, 75)
+}

@@ -19,9 +19,15 @@
 	"content_scripts": [
 		{
 			"matches": ["*://*.twitter.com/*"],
-			"js": ["main.js"]
+			"js": ["main.js"],
+			"css": ["style.css"]
 		}
 	],
+
+	"web_accessible_resources": [{
+        "resources": ["style.css"],
+		"matches": ["*://*.twitter.com/*"]
+	}],
 
 	"author": "Muhammad Nurhafiz"
 }
