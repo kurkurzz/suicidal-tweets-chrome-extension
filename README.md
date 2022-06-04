@@ -16,4 +16,4 @@ A continuation to [suicidal text classification project](https://github.com/kurk
 1. For extension, go to `chrome://extensions/` and enable `Developer Mode`. Click `Load Unpacked` and select this directory.
 1. Refresh Twitter and Done!
 
-![a](icons/sample.png)
+![a](images/sample.png)
